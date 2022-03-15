@@ -133,6 +133,22 @@
 
 	</PreferenceCategory>
 
+	<PreferenceCategory
+		android:key="folderSync"
+		android:title="@string/screen_settings_section_folder_sync">
+
+		<androidx.preference.SwitchPreferenceCompat
+			android:defaultValue="true"
+			android:key="folderSyncOnlyUsingWifi"
+			android:title="@string/screen_settings_section_folder_sync_sync_only_wifi_toggle" />
+
+		<androidx.preference.PreferenceScreen
+			android:key="manageSyncedFolders"
+			android:title="@string/screen_settings_folder_sync_manage_folders">
+		</androidx.preference.PreferenceScreen>
+
+	</PreferenceCategory>
+
 	<PreferenceCategory android:title="@string/screen_settings_lru_cache">
 
 		<androidx.preference.SwitchPreferenceCompat
