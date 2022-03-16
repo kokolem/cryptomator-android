@@ -16,6 +16,7 @@ import org.cryptomator.presentation.ui.activity.CreateVaultActivity;
 import org.cryptomator.presentation.ui.activity.ImagePreviewActivity;
 import org.cryptomator.presentation.ui.activity.LicenseCheckActivity;
 import org.cryptomator.presentation.ui.activity.LicensesActivity;
+import org.cryptomator.presentation.ui.activity.ManageSyncedFoldersActivity;
 import org.cryptomator.presentation.ui.activity.S3AddOrChangeActivity;
 import org.cryptomator.presentation.ui.activity.SetPasswordActivity;
 import org.cryptomator.presentation.ui.activity.SettingsActivity;
@@ -67,6 +68,8 @@ public interface ActivityComponent {
 	void inject(SettingsActivity settingsActivity);
 
 	void inject(LicensesActivity licensesActivity);
+
+	void inject(ManageSyncedFoldersActivity manageSyncedFoldersActivity);
 
 	void inject(VaultListFragment vaultListFragment);
 

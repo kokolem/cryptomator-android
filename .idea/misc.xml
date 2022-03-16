@@ -4,10 +4,15 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="presentation/src/main/res/drawable/ic_lock.xml" value="0.1962962962962963" />
+        <entry key="presentation/src/main/res/layout/activity_licenses.xml" value="0.1" />
+        <entry key="presentation/src/main/res/layout/activity_manage_synced_folders.xml" value="0.18177083333333333" />
         <entry key="presentation/src/main/res/layout/dialog_app_update.xml" value="0.36614583333333334" />
+        <entry key="presentation/src/main/res/layout/toolbar_layout.xml" value="0.18177083333333333" />
+        <entry key="presentation/src/main/res/xml/preferences.xml" value="0.33" />
       </map>
     </option>
   </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="NullableNotNullManager">
     <option name="myDefaultNullable" value="android.support.annotation.Nullable" />
     <option name="myDefaultNotNull" value="org.jetbrains.annotations.NotNull" />

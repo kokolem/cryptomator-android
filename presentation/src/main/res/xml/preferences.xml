@@ -144,7 +144,12 @@
 
 		<androidx.preference.PreferenceScreen
 			android:key="manageSyncedFolders"
-			android:title="@string/screen_settings_folder_sync_manage_folders">
+			android:title="@string/screen_settings_section_folder_sync_manage_folders">
+
+			<intent
+				android:action="android.intent.action.MAIN"
+				android:targetClass="org.cryptomator.presentation.ui.activity.ManageSyncedFoldersActivity"
+				android:targetPackage="@string/app_id" />
 		</androidx.preference.PreferenceScreen>
 
 	</PreferenceCategory>

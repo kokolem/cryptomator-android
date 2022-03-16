@@ -251,6 +251,12 @@
 
 	<string name="screen_settings_auto_photo_upload_title">Save auto upload files to&#8230;</string>
 
+	<string name="screen_settings_section_folder_sync">Folder synchronization</string>
+	<string name="screen_settings_section_folder_sync_sync_only_wifi_toggle">Sync only using WIFI</string>
+	<string name="screen_settings_section_folder_sync_manage_folders">Manage synchronized folders</string>
+
+	<string name="screen_settings_folder_sync_title">Manage synchronized folders</string>
+
 	<string name="screen_settings_section_social" translatable="false">@string/screen_webdav_settings_done_button_text</string>
 	<string name="screen_settings_website_label">Cryptomator website</string>
 	<string name="screen_settings_twitter_label">Follow us on Twitter</string>
@@ -594,8 +600,5 @@
 	<string name="update_interval_1w">Once a week</string>
 	<string name="update_interval_1m">Once a month</string>
 	<string name="update_interval_never" translatable="false">@string/lock_timeout_never</string>
-	<string name="screen_settings_section_folder_sync">Folder synchronization</string>
-	<string name="screen_settings_section_folder_sync_sync_only_wifi_toggle">Sync only using WIFI</string>
-	<string name="screen_settings_folder_sync_manage_folders">Manage synchronized folders</string>
 
 </resources>
