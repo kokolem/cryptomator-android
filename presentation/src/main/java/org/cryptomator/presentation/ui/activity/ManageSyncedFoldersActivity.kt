@@ -12,8 +12,11 @@ class ManageSyncedFoldersActivity : BaseActivity() {
 	}
 
 	private fun setupToolbar() {
-		toolbar.setTitle(R.string.screen_settings_folder_sync_title)
+		toolbar.title = getString(R.string.screen_settings_folder_sync_title)
 		setSupportActionBar(toolbar)
+
+		// FIXME: The back arrow does nothing, same issue as https://github.com/cryptomator/android/issues/438
+		supportActionBar?.setDisplayHomeAsUpEnabled(true)
 	}
 
 }
