@@ -9,7 +9,6 @@
 	<string name="error_no_network_connection">Nincs hálózati kapcsolat</string>
 	<string name="error_invalid_passphrase">Helytelen jelszó</string>
 	<string name="error_file_or_folder_exists">Ez a fájl/mappa már létezik.</string>
-	<string name="error_vault_version_not_supported">Nem támogatott Széf. Ez a Széf a Cryptomator egy másik verziójával készült.</string>
 	<string name="error_vault_already_exists">A széf már létezik.</string>
 	<string name="error_no_such_file">Fájl nem létezik.</string>
 	<string name="error_vault_has_been_locked">A széf zárva van.</string>
@@ -116,7 +115,6 @@
 	<string name="screen_cloud_connections_title">Válasszon helyt</string>
 	<string name="screen_cloud_connections_no_connections">Kattintson ide a hely hozzáadásához</string>
 	<string name="screen_cloud_error_webdav_not_supported">A kiszolgáló nem tűnik WebDAV kompatibilisnek</string>
-	<string name="screen_cloud_local_error_no_content_provider">További helyszínek nem állnak rendelkezésre.</string>
 	<!-- ## screen: webdav settings -->
 	<string name="screen_webdav_settings_url_port_label">ULR</string>
 	<string name="screen_webdav_settings_username_label">Felhasználónév</string>
@@ -273,9 +271,14 @@
 	<string name="dialog_accept_ssl_certificate_details">Részletek</string>
 	<string name="dialog_accept_ssl_certificate_security_checkbox">Ez biztonsági kockázatot jelent. Tudom, mit csinálok.</string>
 	<string name="dialog_app_is_obscured_info_neutral_button">Bezár</string>
+	<string name="dialog_confirm_delete_multiple_message">Biztosan törölni akarja ezeket az elemeket?</string>
+	<string name="dialog_confirm_delete_file_message">Biztosan törli ezt a fájlt?</string>
+	<string name="dialog_enter_license_decline_button">Kilépés</string>
+	<string name="dialog_update_available_title">Frissítés elérhető</string>
 	<string name="dialog_update_available_update">Frissítés most</string>
 	<string name="dialog_update_available_download_site">Ugrás a Letöltési oldalra</string>
 	<string name="dialog_update_available_cancel">Később</string>
+	<string name="dialog_download_update_title">Letöltés folyamatban</string>
 	<string name="dialog_sym_link_back_button">Vissza</string>
 	<string name="permission_snackbar_auth_local_vault">A Cryptomatornak tárhely-hozzáférésre van szüksége a trezorok használatához</string>
 	<string name="permission_snackbar_auth_auto_upload">A Cryptomatornak tárhely-hozzáférésre van szüksége az automatikus fotófeltöltés használatához</string>

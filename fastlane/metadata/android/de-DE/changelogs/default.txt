@@ -1,1 +1,1 @@
-- Problem behoben, bei dem ein "Tresor nicht gefunden"-Dialog beim Entsperren mit OneDrive angezeigt wird, wenn er ein Leerzeichen im Namen enthält
+- Fehler beim Zugriff auf Dateien wenn eine Verbindung neu hinzugefügt wurde behoben
